@@ -1,0 +1,6 @@
+# Building Abstractions with Functions
+
+构建过程抽象。
+
+## Getting Started
+R语言是一门用于统计分析的语言。

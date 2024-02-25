@@ -1,0 +1,30 @@
+project:
+  type: book
+  output-dir: docs
+  preview:
+    port: 2024
+    browser: false
+
+lang: zh
+
+book:
+  title: "SICP in R"
+  author: "金太阳无敌"
+  date: last-modified
+  date-format: "YYYY/MM/DD"
+  chapters:
+    - index.qmd
+    - 001_abs_with_func.qmd
+    - 002_abs_with_data.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
